@@ -398,3 +398,15 @@
 .emptyEvents {
   margin-top: 5%;
 }
+
+.signIn {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.signIn p {
+  font-size: 8rem;
+  line-height: 1rem;
+}

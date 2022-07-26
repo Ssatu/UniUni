@@ -31,7 +31,7 @@ function EventActions({ viewMore }) {
         <button className={styles.button}>
           {user ? (
             //Change back to > 10 after user testing
-            user.score > -1 ? (
+            user.score > 10 ? (
               <Link
                 to="/Coordinator/Create"
                 className={styles.removeDecoration}

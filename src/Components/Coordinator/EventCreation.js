@@ -230,7 +230,11 @@ function EventCreation() {
   ) : (
     <>
       <TopContent />
-      <div>Please Sign in</div>
+      <div className={eventStyles.signIn}>
+        Please Log-in to create an event!
+        <br />
+        <p>🚧</p>
+      </div>
     </>
   );
 }
